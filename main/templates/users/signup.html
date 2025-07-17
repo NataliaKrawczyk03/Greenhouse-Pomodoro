@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<nav class="navbar fixed-top " style="background-color: antiquewhite;">
+    <div class="container-fluid justify-content-between">
+        <a class="navbar-brand">Greenhouse Pomodoro</a>
+        <a class="btn btn-outline-dark" href="{% url 'login' %}">Login</a>
+    </div>
+</nav>
+<br></br>
+
+{% if form.errors %}
+<p>There was an error with your form</p>
+{% endif %}
+
+<div id="registersection">
+<h1 style="text-align: center;">Register</h1>
+<form action="{% url 'signup' %} " method=POST>
+{% csrf_token %}
+{{form.as_p}}
+<input type="submit" class="btn btn-outline-dark" value="Submit">
+</form>
+</div>
+ 
+{% endblock %}

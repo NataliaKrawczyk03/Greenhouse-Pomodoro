@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<nav class="navbar fixed-top " style="background-color: antiquewhite;">
+    <div class="container-fluid justify-content-between">
+        <a class="navbar-brand">Greenhouse Pomodoro</a>
+        <a class="btn btn-outline-dark" href="{% url 'signup' %}">Sign Up</a>
+    </div>
+</nav>
+<br></br>
+<br></br>
+<div id="loginsection">
+    <form action="{% url 'login' %}" method="post">
+        {% csrf_token %}
+        <div class="mb-3">
+            <label for="username" class="form-label">USERNAME</label>
+            <input type="text" name="username" class="form-control" id="username" placeholder="Enter your username">
+        </div>
+        <div class="mb-3">
+            <label for="password" class="form-label">PASSWORD</label>
+            <input type="password" name="password" class="form-control" id="password" placeholder="Enter your password">
+        </div>
+        <button type="submit" class="btn btn-outline-dark ">Login</button>
+    </form>
+    </div>
+    
+
+
+{% endblock %}

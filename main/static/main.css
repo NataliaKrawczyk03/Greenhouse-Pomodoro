@@ -1,0 +1,80 @@
+.btn-outline-dark {
+    color: #615023; 
+    border-color:  #615023; 
+}
+
+.btn-outline-dark-light
+{
+    border-color: antiquewhite;
+}
+
+.btn-outline-dark:hover {
+    background-color:  #615023; 
+    color: antiquewhite; 
+}
+
+.custom-balance-text{
+    color: #615023;
+}
+
+.custom-dropdown{
+    color: #615023;
+    background-color: antiquewhite;
+}
+
+.dropdown-item.active,
+.dropdown-item:focus {
+    background-color: antiquewhite; /* Bez koloru tła przy aktywnym elemencie */
+    color: #615023; /* Kolor tekstu przy aktywnym elemencie */
+}
+
+.dropdown-toggle:focus,
+.dropdown-toggle:active{
+    background-color: #615023;
+    color: antiquewhite;
+}
+
+body
+{
+    background-color: antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#welcome{
+    color: #615023;
+    text-align: center;
+    font-size: 80px;
+}
+
+#timersection{
+    color: #615023;
+    text-align: center;}
+
+#timer{
+    font-size: xx-large !important;
+}
+
+#registersection{
+    color: #615023;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#loginsection{
+    color: #615023;
+    text-align: center;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.dropdown-menu {
+    transform: translateY(7px); /* Przesuń menu w dół o 10 pikseli */
+}
+
+.SettingsModal .modal-content {
+    background-color: antiquewhite !important;
+    color: #615023;
+}
