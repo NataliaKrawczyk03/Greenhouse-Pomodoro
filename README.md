@@ -12,8 +12,8 @@ zaprojektowana z myślą o spokojnej atmosferze i skupieniu. Interfejs inspirowa
 
 ## 🔧 Funkcje
 
-- ⏱️ Tryb Pomodoro (25/5/15 minut – konfigurowalne)
-- 🔔 Powiadomienia dźwiękowe na koniec cyklu
+- Funkcja Pomodoro (25/5/15 minut – konfigurowalne)
+- Powiadomienia dźwiękowe na koniec cyklu
 
 ## ✅ Planowany rozwój
 
