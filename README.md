@@ -23,13 +23,13 @@ zaprojektowana z myślą o spokojnej atmosferze i skupieniu. Interfejs inspirowa
 
 ## 📦 Instalacja
 
-git clone https://github.com/twoj-uzytkownik/greenhouse-pomodoro.git
-cd greenhouse-pomodoro
-python -m venv venv
-venv\Scripts\activate 
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py runserver
+git clone https://github.com/twoj-uzytkownik/greenhouse-pomodoro.git  
+cd greenhouse-pomodoro  
+python -m venv venv  
+venv\Scripts\activate  
+pip install -r requirements.txt  
+python manage.py migrate  
+python manage.py runserver  
 
 Aplikacja będzie dostępna pod adresem: http://127.0.0.1:8000/main
 
